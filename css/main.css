@@ -1,0 +1,49 @@
+.rightfooter{
+	margin-top: 300px;
+	color: white;
+}
+
+.rightfooter img {
+  -webkit-filter: brightness(70%);
+
+}
+.rightfooter img:hover {
+  -webkit-filter: brightness(100%);
+}
+
+.jumbotron{
+	padding-left: 5em;
+}
+.well{
+	margin: 3em;
+}
+
+.jumbotron h1,
+.well h3{
+	font-family: 'Playfair Display', 'Ovo', 'Old Standard TT', serif;
+	font-weight: bold;
+}
+
+.jumbotron p,
+.well p{
+	font-family: 'Open Sans', 'Muli', 'Questrial', sans-serif;
+}
+
+.well img{
+	padding-left: 5em;
+}
+
+.map{
+	padding: 10px;
+	margin: 10px;
+}
+
+.form-group2{
+	display: inline-block;
+	padding: 7px;
+	margin: 7px;
+}
+
+.formhorizontal{
+	color: white !important;
+}

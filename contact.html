@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	
+	<title>Climate Change webstie</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Muli|Old+Standard+TT|Open+Sans|Ovo|Playfair+Display|Questrial" rel="stylesheet">	
+	<style type="text/css">
+		body { 
+			background: #42455E; 
+		}
+	</style>
+
+</head>
+	
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar" href="index.html">Home</span>
+        <span class="icon-bar" href="help.html">Help</span>
+        <span class="icon-bar" href="contact.html">Contact</span>
+      </button>
+      <a class="navbar-brand" href="index.html"><img src="img/logo.png" ></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="help.html">Help</a></li>
+		<li class="active"><a href="contact.html">Contact<span class="sr-only">(current)</span></a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="map"><img width="600" src="http://maps.googleapis.com/maps/api/staticmap?center=1050,+baxter+road,+ottawa&zoom=15&scale=false&size=600x300&maptype=roadmap&key=AIzaSyBpfcEiFuvYtXULSXRCRijnr3vJI3oJD8g&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7C1050,+baxter+road,+ottawa" alt="Google Map of 1050, baxter road, ottawa">
+</div>
+
+<div id="formstuff">
+<form>
+	<form class="form-horizontal">
+	  <div class="form-group">
+		<label for="inputName3" class="col-sm-2 control-label" style="color: lightgrey">Full Name</style></label>
+		<div class="col-sm-10">
+		  <input type="name" class="form-control" id="inputName3" placeholder="Your Name" style="width:250px;">
+		</div>
+	  </div>
+	  <div class="form-group">
+		<label for="inputEmail3" class="col-sm-2 control-label" style="color: lightgrey">Email</style></label>
+		<div class="col-sm-10">
+		  <input type="email" class="form-control" id="inputEmail3" placeholder="Your E-Mail" style="width:250px;">
+		</div>
+	  </div>
+	  <div class="form-group2">
+		  <label for="textarea" style="color: lightgrey">Message</style></label>
+		  <textarea class="form-control" id="textarea" rows="3" style="width:575px;"></textarea>
+	   </div>
+	  <div class="form-group">
+		<div class="col-sm-offset-2 col-sm-10">
+		  <div class="checkbox">
+			<label>
+			  <input type="checkbox" checked>I would like to recieve newsletters, updates, and a whole lot of spam!
+			</label>
+		  </div>
+		</div>
+	  </div>
+	  <div class="form-group">
+		<div class="col-sm-offset-2 col-sm-10">
+		  <button type="submit" class="btn btn-default">Send message</button>
+		</div>
+	  </div>
+	</form>
+</form>
+</div>
+
+
+
+
+
+<footer><center>
+
+<div class="rightfooter navbar-inverse">
+		<p>&copy; Neva Hnüf, all rights reserved.</p>
+		<p>Follow us on:</p>
+		<span id="twitterlogo"><a href="#"><img src="img/twitterlogo.png" alt="Twitter" ></span>
+		<span id="facebooklogo"><a href="#"><img src="img/facebooklogo.png" alt="Facebook"></span>
+		<span id="githublogo"><a href="#"><img src="img/githublogo.png" alt="GitHub"></span>
+		<span id="redditlogo"><a href="#"><img src="img/redditlogo.jpg" alt="Reddit"></span>
+	</div>
+</div>
+
+</center></footer>
+
+</body>
+
+</html>
